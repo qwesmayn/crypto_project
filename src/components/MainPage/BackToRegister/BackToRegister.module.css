@@ -1,0 +1,46 @@
+.block_reg{
+    position: relative;
+    background: #080A0C;
+    z-index: 1;
+    overflow: hidden;
+    padding: 88px 0px 160px 0px;
+}
+
+.block_reg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 50% -150%, rgba(57, 184, 255, 0.2), transparent 70%);
+    z-index: 1;
+}
+
+.reg_text {
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.reg_text span {
+    font-size: 48px;
+    font-weight: 445;
+    line-height: 64px;
+    color: #D5EAFF;
+}
+
+@media (max-width: 1200px) {
+    .reg_text span {
+        font-size: 36px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 800px) {
+    .reg_text span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}

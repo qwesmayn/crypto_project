@@ -1,0 +1,33 @@
+.icon_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    background: linear-gradient(180deg, #242834 0%, #1A1D26 100%);
+    border-radius: 4px;
+    border: 2px solid #52C5FA;
+    margin-bottom: 24px;
+}
+
+.chrt_block{
+    margin-bottom: 8px;
+}
+
+.icon_block img{
+    padding: 8px 14px;
+}
+
+.name_chrt{
+    font-size: 20px;
+    font-weight: 469;
+    line-height: 29px; 
+    color: #D5EAFF;
+}
+
+.more_info{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #464E62;
+}
+

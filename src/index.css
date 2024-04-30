@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  font-family: "Inter", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}

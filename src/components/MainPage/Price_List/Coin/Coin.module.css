@@ -1,0 +1,86 @@
+.grid_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    border-top: 1px solid #222D3E;
+    color: #C7E1FF;
+}
+
+.grid_item_name {
+    display: flex;
+    align-items: center;
+    padding: 24px 24px 24px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    border-top: 1px solid #222D3E;
+}
+
+
+.grid_item_change {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #F94B55;
+    border-top: 1px solid #222D3E;
+}
+
+.grid_item_name img {
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 8px;
+    color: #C7E1FF;
+}
+
+.short_name {
+    font-size: 16px;
+    font-weight: 400;
+    color: #525A71;
+}
+
+.trade_button {
+    border: 1px solid #2FBDFC;
+    background: #0F151E;
+    color: #2FBDFC;
+    padding: 6px 16px 6px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+.trade_button:hover {
+    cursor: pointer;
+    background: #283850;
+    border: 1px solid #2FBDFC;
+}
+
+@media (max-width: 1134px) {
+
+    .grid_item_name span,
+    .grid_item_change,
+    .grid_item {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1053px) {
+    .hideOnMobile {
+        display: none;
+    }
+}
+

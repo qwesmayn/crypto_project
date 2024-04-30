@@ -1,0 +1,19 @@
+.btn_reg{
+    width: 120px;
+    height: 42px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    background: radial-gradient(100% 100% at 50% 0%, #26314E 0%, #1E253C 100%);
+    color: #CEE7FF;
+    margin-right: 8px;
+}
+
+.btn_reg{
+    cursor: pointer;
+}
+
+.btn_reg:hover{
+    background: radial-gradient(100% 100% at 50% 0%, #303950 0%, #2b3144 100%);
+}

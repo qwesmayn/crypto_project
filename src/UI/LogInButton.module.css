@@ -1,0 +1,18 @@
+.btn_lgin{
+    width: 101px;
+    height: 42px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    background: radial-gradient(100% 100% at 50% 0%, #66CBF9 0%, #0FB5FF 100%);
+    color: #08090B;
+}
+
+.btn_lgin{
+    cursor: pointer;
+}
+
+.btn_lgin:hover{
+    background: radial-gradient(100% 100% at 50% 0%, #8fd7f8 0%, #6cccf8 100%);
+}
